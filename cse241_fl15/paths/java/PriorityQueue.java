@@ -9,7 +9,7 @@ class PriorityQueue<T> {
 	public Element<T>[] nodeList;
 	
 
-	private int numberOfNode;
+	public int numberOfNode;
     
     // constructor
     //
@@ -219,7 +219,7 @@ class PriorityQueue<T> {
     	{
     		return null;
     	}
-    }
+    } 
     
  
     public String toString()
@@ -232,14 +232,7 @@ class PriorityQueue<T> {
 	    return elementList;
     }
     
-   
-    private void swap(int i1, int i2){
-    	Element<T> temp = nodeList[i1];
-    	nodeList[i1] = nodeList[i2];
-    	nodeList[i2] = temp;
-    	nodeList[i1].handle.keyValue = i1;
-    	nodeList[i2].handle.keyValue = i2;
-    }
+
 
 
 
