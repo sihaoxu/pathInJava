@@ -7,7 +7,7 @@
 // Handle class is parameterized by the template type T), you may have
 // to uncomment the next line to suppress unchecked type warnings.
 //
-//@SuppressWarnings("unchecked")
+@SuppressWarnings("unchecked")
 
 class PQTest {
     
