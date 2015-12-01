@@ -14,6 +14,8 @@
 import java.util.*;
 
 public class Vertex {
+	
+	public Handle handle;
     
     // Constructor (takes an identifier)
     public Vertex(int id) 
