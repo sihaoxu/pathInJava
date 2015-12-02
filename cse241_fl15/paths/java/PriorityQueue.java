@@ -6,7 +6,7 @@
 class PriorityQueue<T> {
 	
 
-	public Element<T>[] nodeList;
+	public Element<T>[] nodeList=new Element[5000];
 	
 
 	public int numberOfNode;
@@ -28,7 +28,6 @@ class PriorityQueue<T> {
     public PriorityQueue()
     {
     	
-    	nodeList = new Element[1];
         numberOfNode = 1;
     }
     
@@ -49,7 +48,7 @@ class PriorityQueue<T> {
     Handle insert(int key, T value)
     {
     	
-    	if(nodeList.length==numberOfNode)
+    	/*if(nodeList.length==numberOfNode)
     	{
     	   Element<T>[] store = nodeList;
     	   nodeList = new Element[numberOfNode+100];
@@ -57,7 +56,7 @@ class PriorityQueue<T> {
     	   {
     			 nodeList[i] = store[i];
     	   }
-    	}
+    	}*/
 
     	int n=numberOfNode;
     	Handle handle=new Handle(n);
