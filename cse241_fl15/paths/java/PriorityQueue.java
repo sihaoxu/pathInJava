@@ -6,6 +6,7 @@
 class PriorityQueue<T> {
 	
 
+	@SuppressWarnings("unchecked")
 	public Element<T>[] nodeList=new Element[5000];
 	
 
